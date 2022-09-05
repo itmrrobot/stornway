@@ -1,0 +1,53 @@
+.field {
+    input,textarea {
+        padding: 16px;
+        width: 702px;
+        background-color: #e1e1e1;
+        border: none;
+        font-size: 1.6rem;
+        font-weight: 500;
+        font-family: 'Open Sans', sans-serif;
+        &:focus {
+            outline: none;
+        }
+    }
+    label {
+        margin-top: 24px;
+        display: block;
+    }
+    .message {
+        height: 96px;
+        resize: vertical;
+    }
+}
+
+.btn-submit {
+    margin-top: 24px;
+    color: #fff;
+    background-color: #000;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.title {
+    background-color: #e1e1e1;
+    width: 100%;
+    height: 300px;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 300px;
+}
+
+@media (max-width: 1024px) {
+    .field {
+        input,textarea {
+            width: 100%;
+        }
+    }
+    .title {
+        margin-top: 20px;
+        height: 200px;
+        line-height: 200px;
+    }
+}

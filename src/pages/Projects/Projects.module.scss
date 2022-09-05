@@ -1,0 +1,58 @@
+.content {
+    padding: 210px 0 0 0;
+}
+
+.info {
+    display: flex;
+    margin: 0 372px 0 138px;
+    .title {
+        margin-right: 132px;
+        width: 281px;
+        font-size: 2.5rem;
+        display: block;
+        line-height: 3.6rem;
+    }
+    .para {
+        line-height: 2.6rem;
+    }
+    .para-pv {
+        margin-right: 76px;
+    }
+}
+
+.images {
+    display: flex;
+    margin: 142px 0 212px 0;
+    .rectangle-sm {
+        margin: 0 25px 0 138px;
+    }
+    .rectangle-bg {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content {
+        padding: 72px 18px;
+    }
+    .info {
+        display: block;
+        margin: 0;
+        .title {
+            width: auto;
+            margin-bottom: 46px;
+        }
+    }
+    .images {
+        display: block;
+        margin: 40px 0;
+        .rectangle-sm {
+            margin: 0;
+            width: 100%;
+        }
+        .rectangle-bg {
+            width: 100%;
+            margin-top: 12px;
+        }
+    }
+}

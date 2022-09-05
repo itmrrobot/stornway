@@ -1,0 +1,70 @@
+.wrap {
+    margin: 200px 242px 336px 138px;
+}
+
+.careersImg {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.heading {
+    .title {
+        font-size: 3.8rem;
+        margin-bottom: 30px;
+    }
+    .desc {
+        font-size: 2.4rem;
+    }
+}
+
+.list {
+    margin-top: 162px;
+}
+
+.item {
+    display: flex;
+    margin-bottom: 104px;
+    .title {
+        font-size: 2.6rem;
+        flex: 3;
+    }
+    .info {
+        line-height: 2.4rem;
+        flex: 6;
+    }
+}
+
+.apply {
+    display: flex;
+    .title {
+        font-size: 3.8rem;
+        flex: 3;
+        margin-top: 26px;
+    }
+    .fields {
+        flex: 6;
+    }
+}
+
+@media (max-width: 1024px) {
+    .wrap {
+        margin: 72px 18px;
+    }
+    .list {
+        margin-top: 0;
+    }
+    .item {
+        display: block;
+        margin-bottom: 0;
+        .title {
+            margin: 52px 0 34px;
+        }
+    }
+    .apply {
+        display: block;
+        .title {
+            font-size: 2.6rem;
+        }
+    }
+}

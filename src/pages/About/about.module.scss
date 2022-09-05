@@ -1,0 +1,72 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 214px 0;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    .title {
+        width: 270px;
+        font-size: 2.8rem;
+        font-weight: 550;
+    }
+    .first-paragraph {
+        width: 372px;
+        line-height: 2.4rem;
+    }
+    .second-paragraph {
+        width: 387px;
+        line-height: 2.4rem;
+    }
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    margin: 138px 0 150px 0;
+    .rectangle {
+        height: 304px;
+        margin: 0 24px 0 62px;
+    }
+    .olegLaptev {
+        height: 304px;
+        width: 507px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content {
+        padding: 72px 18px;
+    }
+    .info { 
+        display: block;
+        .title {
+            width: 100%;
+            margin-bottom: 44px;
+        }
+        .first-paragraph {
+            width: 100%;
+            margin-bottom: 44px;
+        }
+        .second-paragraph {
+            width: 100%;
+            margin-bottom: 44px;
+        }
+    }
+    .images  {
+        display: block;
+        margin: 0;
+        .rectangle {
+            margin: 0;
+            width: 100%;
+        }
+        .olegLaptev {
+            height: 100%;
+            width: 100%;
+            margin: 10px 0 74px 0;
+        }
+    }
+}

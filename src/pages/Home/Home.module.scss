@@ -1,0 +1,303 @@
+.img {
+    width: 100%;
+}
+
+.btn-common {
+    color: var(--light-color);
+    background-color: var(--dark-color);    
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.container {
+    position: relative;
+    .slogan {
+        position: absolute;
+        top: -452px;
+        margin: 0 162px;
+        font-size: 9.2rem;
+        font-weight: 550;
+        color: var(--light-color);
+    }
+    .btn-ct {
+        position: absolute;
+        top: -274px;
+        color: var(--dark-color);
+        background-color: var(--light-color);
+        margin: 0 635px
+    }
+}
+
+        .about {
+            margin: 228px 0 232px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+            .title {
+                font-size: 6.4rem;
+                text-align: center;
+            }
+    
+            .desc {
+                text-align: center;
+                line-height: 2.4rem;
+                width: 589px;
+                margin: 46px 0 60px 0;
+            }
+        }
+    
+        .projects {
+            margin: 180px 0 230px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--dark-color);
+            color: var(--light-color);
+    
+            .title {
+                font-size: 6.4rem;
+                text-align: center;
+                margin-top: 182px;
+            }
+    
+            .list-projects {
+                display: flex;
+                padding: 70px 0 60px 0;
+            }
+        }
+
+
+.item-projects {
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px;
+    .project-name {
+
+        text-align: center;
+        font-size: 1.8rem;
+        margin-top: 16px;
+    }
+}
+
+.btn-pj {
+    color: var(--dark-color);
+    background: var(--light-color);
+    margin-bottom: 232px;
+    &:hover {
+        background-color: #1a1a1a;
+        color: var(--light-color);
+    }
+}
+
+.services {
+    position: relative;
+    margin: 180px 0 230px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .services-desc {
+        margin-right: 138px;
+        .title {
+            font-size: 6.4rem;
+            text-align: left;
+        }
+        .desc {
+            width: 388px;
+            margin: 56px 0 64px 0;
+            line-height: 2.4rem;
+        }
+    }
+}
+    .item-service {
+        display: flex;
+        align-items: center;
+        padding: 28px 0;
+        .service-number {
+            font-size: 6.2rem;
+            font-weight: 550;
+            padding: 0 40px;
+        }
+        .service-name {
+            font-size: 2.4rem;
+            padding: 0 40px;
+        }
+    }
+
+.btn-sv {
+    position: absolute;
+    left: 238px;
+    top: 340px;
+}
+
+.careers {
+    position: relative;
+    display: flex;
+    .careersImg {
+        width: 104%;
+    }
+}
+.careers-desc {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 132px;
+    right: 258px;
+    .title {
+        font-size: 6.4rem;
+    }
+    .desc {
+        width: 378px;
+        margin: 42px 0 38px 0;
+        line-height: 2.4rem;
+    }
+    .btn-cr {
+        width: 236px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .btn-common {
+        border-radius: 32px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        .slogan {
+            font-size: 5rem;
+            top: -292px;
+            text-align: center;
+        }
+        .btn-ct {
+            margin: 0 calc(100%/2 - 80px);
+            width: 164px;
+            top: -138px;
+        }
+    }
+    .about {
+        margin: 98px 0 92px 0;
+        .title {
+            font-size: 4rem;
+        }
+    }
+    .projects {
+        margin: 82px 0 0 0;
+        .title {
+            font-size: 4rem;
+            margin: 86px 0 62px;
+        }
+        .list-projects {
+            padding: 0;
+        }
+    }
+    .item-projects {
+        padding: 0 0 60px;
+        display: block;
+        .project-name {
+            width: 100%;
+            display: inline-block;
+        }
+    }
+    .img-project {
+        width: 100%;
+        padding: 0 18px;
+    }
+    .btn-pj {
+        margin-bottom: 76px;
+    }
+    .list-projects {
+        display: flex;
+        flex-direction: column;
+    }
+    .list-services {
+        margin-bottom: 68px;
+    }
+    .services {
+        margin: 72px 0 62px;
+        flex-direction: column;
+        display: block;
+        .services-desc {
+            margin: 0 18px;
+            .title {
+                font-size: 4rem;
+                text-align: left;
+            }
+            .desc {
+                width: 100%;
+            }
+        }
+    }
+    .item-service {
+        display: block;
+        .service-number {
+            font-size: 3.6rem;
+        }
+        .service-name {
+            display: block;
+            margin-top: 30px;
+        }
+    }
+    .btn-sv {
+        position: unset;
+        margin-left: 18px;
+    }
+    .careers {
+        .careersImg {
+            width: 100%;
+        }
+    }
+    .careers-desc {
+        top: 72px;
+        left: 18px;
+        width: 96%;
+        .title {
+            font-size: 4rem;
+        }
+        .desc {
+            width: 90%;
+        }
+        .btn-cr {
+            width: 188px;
+        }
+    }
+}
+
+@media (max-width: 739px) {
+    .img {
+        height: 650px;
+        object-fit: cover;
+    }
+    .container {
+        .slogan {
+            margin: 0;
+            top: -418px;
+            padding: 20px;
+            line-height: 7.6rem;
+        }
+    }
+    .about {
+        .desc {
+            padding: 31px;
+            margin: 15px 18px 29px 18px;
+            width: auto;
+        }
+    }
+    .item-service {
+        .service-number,
+        .service-name {
+            padding: 0 18px;
+        }
+    }
+    .careers {
+        .careersImg {
+            height: 450px;
+            object-fit: cover;
+        }
+    }
+    .careers-desc {
+        width: 95%;
+    }
+}
