@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/stornway-template/static/css/main.550c5008.css",
-    "main.js": "/stornway-template/static/js/main.059389ba.js",
+    "main.js": "/stornway-template/static/js/main.d0694d46.js",
     "static/js/787.24606241.chunk.js": "/stornway-template/static/js/787.24606241.chunk.js",
     "static/media/services.avif": "/stornway-template/static/media/services.b2c25a0e4216c8d81176.avif",
     "static/media/img.webp": "/stornway-template/static/media/img.3bc7022d84175a9d50d3.webp",
@@ -24,11 +24,11 @@
     "static/media/img-item3.avif": "/stornway-template/static/media/img-item3.280f37b48dee17e59826.avif",
     "index.html": "/stornway-template/index.html",
     "main.550c5008.css.map": "/stornway-template/static/css/main.550c5008.css.map",
-    "main.059389ba.js.map": "/stornway-template/static/js/main.059389ba.js.map",
+    "main.d0694d46.js.map": "/stornway-template/static/js/main.d0694d46.js.map",
     "787.24606241.chunk.js.map": "/stornway-template/static/js/787.24606241.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.550c5008.css",
-    "static/js/main.059389ba.js"
+    "static/js/main.d0694d46.js"
   ]
 }
